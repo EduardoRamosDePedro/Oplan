@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Principal</title>
+</head>
+
+<body>
+	<div>
+		<h4>Edu addEvent</h4>
+		<a href="PreAddEventServlet" target="_blank">Dar de alta nuevo evento</a><br>
+		<a href="javascript:nuevaventana('PreAddEventServlet')">Dar de alta nuevo evento (nueva ventana)</a>
+		<h4>Abel detailEvent</h4>
+		<a href="PreDetailEventServlet?idEvento=99" target="_blank">Detalle de evento clickeado</a><br>
+		<a href="javascript:nuevaventana('PreDetailEventServlet?idEvento=99')">Detalle de evento clickeado (nueva ventana)</a>
+		<h4>Xoana landEvent</h4>
+		<img src="PreLandServlet?id=99">
+	</div>
+</body>
+
+<script language=javascript>
+	function nuevaventana (url){
+		window.open(url, "Nuevo evento", "width=750, height=600")
+	}
+</script>
+
+</html>

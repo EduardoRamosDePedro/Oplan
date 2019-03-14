@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<Resource name="jdbc/aex" auth="Container"
+		type="javax.sql.DataSource" maxActive="100" maxIdle="30"
+		maxWait="10000" driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost/aex?serverTimezone=UTC" username="root"
+		password="vigo2019" />
+</context>
